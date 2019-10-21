@@ -18,6 +18,35 @@ h1, h2 {
   
 }
 
+html,
+body {
+  height: 100%;
+}
+
+.gallery-pad{
+    margin: 50px;
+    
+}
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+.content {
+  flex: 1 0 auto;
+}
+footer {
+  flex: 0 0 auto;
+}
+
+tr {
+    border: solid 1px black;
+}
+
+td {
+     border: solid 1px black;
+    
+}
 
 
 /* Menu  */
@@ -192,24 +221,18 @@ label {
     margin-bottom: 8px;
     
 }
-.form_radio label {
-    display: inline-block;
-}
 
-.form_radio input[type=radio] {
-    background-color: aqua;
-}
 
 input {
     margin-left: 10 px;
     border: solid 1px #8c0031;
     padding: 5px;
     
-    
 }
 
 textarea {
     resize: none;
+       border: solid 1px #8c0031;
 }
 
 
@@ -224,4 +247,16 @@ footer {
     padding-top: 20px;
     padding-bottom: 20px;
     color: white;
+ 
 }
+
+
+label[for] {
+ cursor: pointer;
+}
+ 
+input[type="checkbox"] {
+ display: none;
+}
+ 
+
